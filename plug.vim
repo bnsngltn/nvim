@@ -9,5 +9,8 @@ Plug 'gruvbox-community/gruvbox'
 
 Plug 'neovim/nvim-lspconfig'
 
+Plug 'tpope/vim-fugitive'
+Plug 'vim-airline/vim-airline'
+
 call plug#end()
 

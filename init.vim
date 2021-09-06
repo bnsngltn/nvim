@@ -29,3 +29,4 @@ source $HOME/.config/nvim/plug.vim
 source $HOME/.config/nvim/theming.vim
 source $HOME/.config/nvim/autocommands.vim
 source $HOME/.config/nvim/myremaps.vim
+
