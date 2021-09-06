@@ -1,0 +1,8 @@
+{
+    "languageServer": {
+        "elixirLS": {
+            "command": "/home/ben/.elixir-ls/release/language_server.sh",
+            "filetypes": ["elixir", "eelixir"]
+        }
+    }
+}
