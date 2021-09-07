@@ -15,6 +15,9 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'pangloss/vim-javascript'
 Plug 'maxmellon/vim-jsx-pretty'
 
+" CSS
+Plug 'ap/vim-css-color'
+
 " elixir
 Plug 'elixir-editors/vim-elixir'
 
