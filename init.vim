@@ -18,7 +18,7 @@ set scrolloff=8
 set noshowmode
 set completeopt=menuone,noinsert,noselect
 set signcolumn=yes
-set colorcolumn=80
+set colorcolumn=100
 
 let mapleader = " "
 
