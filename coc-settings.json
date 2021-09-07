@@ -1,4 +1,4 @@
 {
     "suggest.floatEnable": true,
-    "coc.preferences.formatOnSaveFiletypes": ["javascript", "javascriptreact"]
+    "coc.preferences.formatOnSaveFiletypes": ["javascript", "javascriptreact", "elixir"]
 }

@@ -29,4 +29,3 @@ source $HOME/.config/nvim/plugins/telescope.rc.vim
 source $HOME/.config/nvim/plugins/coc.rc.vim
 source $HOME/.config/nvim/plugins/vim-javascript.rc.vim
 
-source $HOME/.config/nvim/languages/elixir.rc.vim
