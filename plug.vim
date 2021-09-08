@@ -11,6 +11,9 @@ Plug 'vim-airline/vim-airline'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+" for commenting stuff out 
+Plug 'tomtom/tcomment_vim'
+
 " javascript and typescript stuff
 Plug 'pangloss/vim-javascript'
 Plug 'maxmellon/vim-jsx-pretty'
