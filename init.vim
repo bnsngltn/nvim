@@ -21,8 +21,6 @@ set signcolumn=yes
 set colorcolumn=100
 set visualbell
 
-set guicursor=
-
 let mapleader = " "
 
 source $HOME/.config/nvim/plug.vim
