@@ -19,6 +19,9 @@ set noshowmode
 set completeopt=menuone,noinsert,noselect
 set signcolumn=yes
 set colorcolumn=100
+set visualbell
+
+set guicursor=
 
 let mapleader = " "
 
