@@ -1,7 +1,9 @@
 call plug#begin(stdpath('data') . '/plugged')
 
+" vs code like theme
 Plug 'tomasiser/vim-code-dark'
 
+" fuzzy file finder
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
  
@@ -11,5 +13,7 @@ Plug 'vim-airline/vim-airline'
 
 " for commenting stuff out 
 Plug 'tomtom/tcomment_vim'
+
+" language servers and autocompletion
 
 call plug#end()
