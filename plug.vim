@@ -14,6 +14,10 @@ Plug 'vim-airline/vim-airline'
 " for commenting stuff out 
 Plug 'tomtom/tcomment_vim'
 
-" language servers and autocompletion
+" intellisense
+Plug 'neovim/nvim-lspconfig'
+Plug 'hrsh7th/cmp-nvim-lsp'
+Plug 'hrsh7th/cmp-buffer'
+Plug 'hrsh7th/nvim-cmp'
 
 call plug#end()

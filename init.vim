@@ -24,6 +24,9 @@ set visualbell
 let mapleader = " "
 
 source $HOME/.config/nvim/plug.vim
+luafile $HOME/.config/nvim/plugins/compe.lua
+luafile $HOME/.config/nvim/plugins/elixirls.lua
+source $HOME/.config/nvim/plugins/lsp-config.rc.vim
 
 source $HOME/.config/nvim/plugins/theme.rc.vim
 source $HOME/.config/nvim/plugins/telescope.rc.vim
