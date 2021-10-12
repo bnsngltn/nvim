@@ -19,5 +19,9 @@ Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/nvim-cmp'
+Plug 'glepnir/lspsaga.nvim'
+
+" Elixir syntax highlighting
+Plug 'elixir-editors/vim-elixir'
 
 call plug#end()
