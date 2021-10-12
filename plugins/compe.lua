@@ -28,12 +28,6 @@ local cmp = require'cmp'
       -- For vsnip user.
       { name = 'vsnip' },
 
-      -- For luasnip user.
-      -- { name = 'luasnip' },
-
-      -- For ultisnips user.
-      -- { name = 'ultisnips' },
-
       { name = 'buffer' },
     }
   })
