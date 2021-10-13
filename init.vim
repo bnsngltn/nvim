@@ -29,6 +29,8 @@ luafile $HOME/.config/nvim/plugins/compe.lua
 luafile $HOME/.config/nvim/plugins/diagnosticserver.lua
 luafile $HOME/.config/nvim/plugins/elixirls.lua
 luafile $HOME/.config/nvim/plugins/tsserver.lua
+luafile $HOME/.config/nvim/plugins/jsonls.lua
+luafile $HOME/.config/nvim/plugins/bashls.lua
 
 
 source $HOME/.config/nvim/plugins/lsp-config.rc.vim

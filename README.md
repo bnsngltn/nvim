@@ -34,6 +34,9 @@ me manage my different workspaces.
 ## JSON
 - Install it via npm: `npm i -g vscode-langservers-extracted`
 
+## Bashls
+- Install itvia npm: `npm i -g bash-language-server`
+
 
 ## Neovim Plugin Management
 For managing different plugins, I use [vim-plug](https://github.com/junegunn/vim-plug#neovim)
