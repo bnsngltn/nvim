@@ -24,11 +24,22 @@ set visualbell
 let mapleader = " "
 
 source $HOME/.config/nvim/plug.vim
+luafile $HOME/.config/nvim/plugins/compe.lua
+" language servers
+luafile $HOME/.config/nvim/plugins/diagnosticserver.lua
+luafile $HOME/.config/nvim/plugins/elixirls.lua
+luafile $HOME/.config/nvim/plugins/tsserver.lua
+luafile $HOME/.config/nvim/plugins/jsonls.lua
+luafile $HOME/.config/nvim/plugins/bashls.lua
+
+
+source $HOME/.config/nvim/plugins/lsp-config.rc.vim
+luafile $HOME/.config/nvim/plugins/lspsaga.lua
+source $HOME/.config/nvim/plugins/lspsaga.rc.vim
+
 
 source $HOME/.config/nvim/plugins/theme.rc.vim
 source $HOME/.config/nvim/plugins/telescope.rc.vim
-source $HOME/.config/nvim/plugins/coc.rc.vim
-source $HOME/.config/nvim/plugins/vim-javascript.rc.vim
 
 " remaps
 nnoremap <C-J> <C-W><C-J>
