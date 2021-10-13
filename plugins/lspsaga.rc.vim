@@ -14,3 +14,7 @@ tnoremap <silent> <C-t> <C-\><C-n>:lua require('lspsaga.floaterm').close_float_t
 nnoremap <silent> [e <cmd>lua require'lspsaga.diagnostic'.lsp_jump_diagnostic_prev()<CR>
 nnoremap <silent> ]e <cmd>lua require'lspsaga.diagnostic'.lsp_jump_diagnostic_next()<CR>
 nnoremap <silent><leader>cc <cmd>lua require'lspsaga.diagnostic'.show_cursor_diagnostics()<CR>
+
+" Diagnostics highlight color
+highlight LspDiagnosticsDefaultError guifg=BrightRed
+highlight LspDiagnosticsDefaultWarning guifg=BrightYellow
