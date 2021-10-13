@@ -17,6 +17,9 @@ me manage my different workspaces.
 ## Neovim (>= 0.5)
 - Download it [here](https://github.com/neovim/neovim/wiki/Installing-Neovim)
 
+## Diagnostic Server
+- Install it via npm: `npm install -g diagnostic-languageserver`
+
 ## Elixir Dev
 - Install [Elixir and Erlang](https://elixir-lang.org/install.html)
 - Install [elixirls](https://github.com/neovim/nvim-lspconfig/blob/master/CONFIG.md#elixirls)
@@ -24,6 +27,9 @@ me manage my different workspaces.
 ## React Dev
 - Install [Node](https://nodejs.org/en/download/)
 - Install [tsserver](https://github.com/neovim/nvim-lspconfig/blob/master/CONFIG.md#tsserver)
+
+## EsLint and Prettier
+- Install them via npm: `npm i -g eslint_d prettier`
 
 ## Neovim Plugin Management
 For managing different plugins, I use [vim-plug](https://github.com/junegunn/vim-plug#neovim)

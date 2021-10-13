@@ -26,8 +26,10 @@ let mapleader = " "
 source $HOME/.config/nvim/plug.vim
 luafile $HOME/.config/nvim/plugins/compe.lua
 " language servers
+luafile $HOME/.config/nvim/plugins/diagnosticserver.lua
 luafile $HOME/.config/nvim/plugins/elixirls.lua
 luafile $HOME/.config/nvim/plugins/tsserver.lua
+
 
 source $HOME/.config/nvim/plugins/lsp-config.rc.vim
 luafile $HOME/.config/nvim/plugins/lspsaga.lua
