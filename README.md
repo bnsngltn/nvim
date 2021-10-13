@@ -31,6 +31,10 @@ me manage my different workspaces.
 ## EsLint and Prettier
 - Install them via npm: `npm i -g eslint_d prettier`
 
+## JSON
+- Install it via npm: `npm i -g vscode-langservers-extracted`
+
+
 ## Neovim Plugin Management
 For managing different plugins, I use [vim-plug](https://github.com/junegunn/vim-plug#neovim)
 
