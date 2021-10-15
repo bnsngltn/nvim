@@ -24,6 +24,9 @@ me manage my different workspaces.
 - Install [Elixir and Erlang](https://elixir-lang.org/install.html)
 - Install [elixirls](https://github.com/neovim/nvim-lspconfig/blob/master/CONFIG.md#elixirls)
 
+## Python Dev
+- Install `pyright` via npm: `sudo npm install -g pyright`
+
 ## React Dev
 - Install [Node](https://nodejs.org/en/download/)
 - Install [tsserver](https://github.com/neovim/nvim-lspconfig/blob/master/CONFIG.md#tsserver)
