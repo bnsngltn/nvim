@@ -30,4 +30,7 @@ Plug 'elixir-editors/vim-elixir'
 Plug 'pangloss/vim-javascript'
 Plug 'maxmellon/vim-jsx-pretty'
 
+" Python syntax highlighting
+Plug 'numirias/semshi', { 'do': ':UpdateRemotePlugins' }
+
 call plug#end()
