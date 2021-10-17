@@ -12,4 +12,5 @@ autocmd BufWritePre *.js lua vim.lsp.buf.formatting_seq_sync(nil, 1000)
 autocmd BufWritePre *.jsx lua vim.lsp.buf.formatting_seq_sync(nil, 1000)
 autocmd BufWritePre *.ex lua vim.lsp.buf.formatting_sync(nil, 1000)
 autocmd BufWritePre *.exs lua vim.lsp.buf.formatting_sync(nil, 1000)
+autocmd BufWritePre *.cpp lua vim.lsp.buf.formatting_sync(nil, 1000)
 

@@ -27,6 +27,10 @@ me manage my different workspaces.
 ## Python Dev
 - Install `pyright` via npm: `sudo npm install -g pyright`
 
+## C++ Dev 
+- Install the gcc compiler - `sudo apt install build-essential`
+- Install [clangd](https://clangd.llvm.org/installation.html)
+
 ## React Dev
 - Install [Node](https://nodejs.org/en/download/)
 - Install [tsserver](https://github.com/neovim/nvim-lspconfig/blob/master/CONFIG.md#tsserver)
