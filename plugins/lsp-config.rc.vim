@@ -8,9 +8,17 @@ nnoremap <silent> <C-n> <cmd>lua vim.lsp.diagnostic.goto_prev()<CR>
 nnoremap <silent> <C-p> <cmd>lua vim.lsp.diagnostic.goto_next()<CR>
 
 " auto-format
+
+" javascript and react
 autocmd BufWritePre *.js lua vim.lsp.buf.formatting_seq_sync(nil, 1000)
 autocmd BufWritePre *.jsx lua vim.lsp.buf.formatting_seq_sync(nil, 1000)
+
+" elixir
 autocmd BufWritePre *.ex lua vim.lsp.buf.formatting_sync(nil, 1000)
 autocmd BufWritePre *.exs lua vim.lsp.buf.formatting_sync(nil, 1000)
-autocmd BufWritePre *.cpp lua vim.lsp.buf.formatting_sync(nil, 1000)
 
+" c and cpp
+autocmd BufWritePre *.cpp lua vim.lsp.buf.formatting_sync(nil, 1000)
+autocmd BufWritePre *.cc lua vim.lsp.buf.formatting_sync(nil, 1000)
+autocmd BufWritePre *.c lua vim.lsp.buf.formatting_sync(nil, 1000)
+autocmd BufWritePre *.h lua vim.lsp.buf.formatting_sync(nil, 1000)
