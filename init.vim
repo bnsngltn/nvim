@@ -32,7 +32,7 @@ luafile $HOME/.config/nvim/plugins/tsserver.lua
 luafile $HOME/.config/nvim/plugins/jsonls.lua
 luafile $HOME/.config/nvim/plugins/bashls.lua
 luafile $HOME/.config/nvim/plugins/pyright.lua
-luafile $HOME/.config/nvim/plugins/clangd.lua
+luafile $HOME/.config/nvim/plugins/rust_analyzer.lua
 
 
 source $HOME/.config/nvim/plugins/lsp-config.rc.vim

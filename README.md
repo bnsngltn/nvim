@@ -27,9 +27,9 @@ me manage my different workspaces.
 ## Python Dev
 - Install `pyright` via npm: `sudo npm install -g pyright`
 
-## C++ Dev 
-- Install the gcc compiler - `sudo apt install build-essential`
-- Install [clangd](https://clangd.llvm.org/installation.html)
+## Rust Dev
+- Install `rust-analyzer` manually with [this guide](https://rust-analyzer.github.io/manual.html#installation)
+- If you installed it in your `~/.local/bin` directory, make sure to add this in your `$PATH`.
 
 ## React Dev
 - Install [Node](https://nodejs.org/en/download/)
