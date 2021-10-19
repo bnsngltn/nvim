@@ -17,8 +17,5 @@ autocmd BufWritePre *.jsx lua vim.lsp.buf.formatting_seq_sync(nil, 1000)
 autocmd BufWritePre *.ex lua vim.lsp.buf.formatting_sync(nil, 1000)
 autocmd BufWritePre *.exs lua vim.lsp.buf.formatting_sync(nil, 1000)
 
-" c and cpp
-autocmd BufWritePre *.cpp lua vim.lsp.buf.formatting_sync(nil, 1000)
-autocmd BufWritePre *.cc lua vim.lsp.buf.formatting_sync(nil, 1000)
-autocmd BufWritePre *.c lua vim.lsp.buf.formatting_sync(nil, 1000)
-autocmd BufWritePre *.h lua vim.lsp.buf.formatting_sync(nil, 1000)
+" rust
+autocmd BufWritePre *.rs lua vim.lsp.buf.formatting_sync(nil, 1000)
