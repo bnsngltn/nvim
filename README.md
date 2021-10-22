@@ -14,8 +14,14 @@ I also occassionally mess around with some Python, Go, and Rust codes.
 I work with different versions of programming languages, so I use [asdf](http://asdf-vm.com/guide/getting-started.html#_2-download-asdf) in helping
 me manage my different workspaces.
 
+
 ## Neovim (>= 0.5)
 - Download it [here](https://github.com/neovim/neovim/wiki/Installing-Neovim)
+
+## Commitizen
+For user-friendly commit messages. 
+- Install it via npm: `npm install commitizen -g`
+
 
 ## Diagnostic Server
 - Install it via npm: `npm install -g diagnostic-languageserver`
