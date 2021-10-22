@@ -5,12 +5,6 @@ local cmp = require'cmp'
       expand = function(args)
         -- For `vsnip` user.
         vim.fn["vsnip#anonymous"](args.body)
-
-        -- For `luasnip` user.
-        -- require('luasnip').lsp_expand(args.body)
-
-        -- For `ultisnips` user.
-        -- vim.fn["UltiSnips#Anon"](args.body)
       end,
     },
     mapping = {
@@ -25,10 +19,11 @@ local cmp = require'cmp'
     sources = {
       { name = 'nvim_lsp' },
 
-      -- For vsnip user.
       { name = 'vsnip' },
 
       { name = 'buffer' },
+
+      { name = 'path' },
     }
   })
 

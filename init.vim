@@ -16,7 +16,7 @@ set undofile
 set incsearch
 set scrolloff=8
 set noshowmode
-set completeopt=menuone,noinsert,noselect
+set completeopt=menuone,noselect
 set signcolumn=yes
 set colorcolumn=100
 set visualbell
