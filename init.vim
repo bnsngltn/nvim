@@ -22,6 +22,7 @@ set colorcolumn=100
 set visualbell
 
 let mapleader = " "
+let g:python3_host_prog = '~/.asdf/installs/python/3.9.7/bin/python'
 
 source $HOME/.config/nvim/plug.vim
 luafile $HOME/.config/nvim/plugins/compe.lua

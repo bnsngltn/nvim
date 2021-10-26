@@ -6,7 +6,6 @@ Plug 'tomasiser/vim-code-dark'
 " fuzzy file finder
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
  
 " git
 Plug 'tpope/vim-fugitive'
