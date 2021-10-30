@@ -1,5 +1,6 @@
 " hover docs
-nnoremap <silent>K :Lspsaga hover_doc<CR>
+nnoremap <silent> K <cmd>lua vim.lsp.buf.hover()<CR>
+" nnoremap <silent>K :Lspsaga hover_doc<CR>
 
 " for scrolling hover docs
 nnoremap <silent> <C-f> <cmd>lua require('lspsaga.action').smart_scroll_with_saga(1)<CR>
