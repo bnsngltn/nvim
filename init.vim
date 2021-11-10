@@ -21,6 +21,8 @@ set signcolumn=yes
 set colorcolumn=100
 set visualbell
 
+set shell=/bin/bash
+
 let mapleader = " "
 let g:python3_host_prog = '~/.asdf/installs/python/3.9.7/bin/python'
 
