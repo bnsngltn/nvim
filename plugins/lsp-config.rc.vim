@@ -7,13 +7,19 @@ nnoremap <silent> <C-k> <cmd>lua vim.lsp.buf.signature_help()<CR>
 
 " auto-format
 
-" javascript and react
-autocmd BufWritePre *.js lua vim.lsp.buf.formatting_seq_sync(nil, 1000)
-autocmd BufWritePre *.jsx lua vim.lsp.buf.formatting_seq_sync(nil, 1000)
+augroup formatters 
+  " remove existing instance of this group
+  autocmd!
 
-" elixir
-autocmd BufWritePre *.ex lua vim.lsp.buf.formatting_sync(nil, 1000)
-autocmd BufWritePre *.exs lua vim.lsp.buf.formatting_sync(nil, 1000)
+  " javascript and react
+  autocmd BufWritePre *.js lua vim.lsp.buf.formatting_seq_sync(nil, 1000)
+  autocmd BufWritePre *.jsx lua vim.lsp.buf.formatting_seq_sync(nil, 1000)
 
-" rust
-autocmd BufWritePre *.rs lua vim.lsp.buf.formatting_sync(nil, 1000)
+  " elixir
+  autocmd BufWritePre *.ex lua vim.lsp.buf.formatting_sync(nil, 1000)
+  autocmd BufWritePre *.exs lua vim.lsp.buf.formatting_sync(nil, 1000)
+
+  " rust
+  autocmd BufWritePre *.rs lua vim.lsp.buf.formatting_sync(nil, 1000)
+
+augroup End
