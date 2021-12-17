@@ -38,11 +38,9 @@ luafile $HOME/.config/nvim/plugins/pyright.lua
 luafile $HOME/.config/nvim/plugins/rust_analyzer.lua
 luafile $HOME/.config/nvim/plugins/arduinols.lua
 
-
 source $HOME/.config/nvim/plugins/lsp-config.rc.vim
 luafile $HOME/.config/nvim/plugins/lspsaga.lua
 source $HOME/.config/nvim/plugins/lspsaga.rc.vim
-
 
 source $HOME/.config/nvim/plugins/theme.rc.vim
 source $HOME/.config/nvim/plugins/telescope.rc.vim
