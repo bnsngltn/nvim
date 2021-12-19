@@ -37,6 +37,7 @@ luafile $HOME/.config/nvim/plugins/bashls.lua
 luafile $HOME/.config/nvim/plugins/pyright.lua
 luafile $HOME/.config/nvim/plugins/rust_analyzer.lua
 luafile $HOME/.config/nvim/plugins/arduinols.lua
+luafile $HOME/.config/nvim/plugins/clangd.lua
 
 source $HOME/.config/nvim/plugins/lsp-config.rc.vim
 luafile $HOME/.config/nvim/plugins/lspsaga.lua
