@@ -11,9 +11,8 @@ augroup formatters
   " remove existing instance of this group
   autocmd!
 
-  " javascript and react
-  autocmd BufWritePre *.js lua vim.lsp.buf.formatting_seq_sync(nil, 1000)
-  autocmd BufWritePre *.jsx lua vim.lsp.buf.formatting_seq_sync(nil, 1000)
+  " javascript and all of its derivatives
+  autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.svelte,*.yaml,*.html PrettierAsync
 
   " elixir
   autocmd BufWritePre *.ex lua vim.lsp.buf.formatting_sync(nil, 1000)

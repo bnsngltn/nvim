@@ -29,6 +29,7 @@ Plug 'tami5/lspsaga.nvim'
 Plug 'elixir-editors/vim-elixir'
 
 " Javascript syntax highlighting
+Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile --production' }
 Plug 'pangloss/vim-javascript'
 Plug 'maxmellon/vim-jsx-pretty'
 
