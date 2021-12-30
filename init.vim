@@ -22,7 +22,7 @@ set colorcolumn=100
 set visualbell
 
 set shell=/bin/bash
-set guifont=Hack:h10
+set guifont=Monospace:h10
 
 let mapleader = " "
 let g:python3_host_prog = '~/.asdf/installs/python/3.9.7/bin/python'
