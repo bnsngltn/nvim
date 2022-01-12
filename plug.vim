@@ -36,4 +36,7 @@ Plug 'maxmellon/vim-jsx-pretty'
 " Python syntax highlighting
 Plug 'numirias/semshi', { 'do': ':UpdateRemotePlugins' }
 
+" Markdown and stuff
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+
 call plug#end()
