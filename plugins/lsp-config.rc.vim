@@ -21,4 +21,6 @@ augroup formatters
   " rust
   autocmd BufWritePre *.rs lua vim.lsp.buf.formatting_sync(nil, 1000)
 
+  " prisma
+  autocmd BufWritePre *.prisma lua vim.lsp.buf.formatting_sync(nil, 1000)
 augroup End
