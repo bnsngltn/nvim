@@ -54,7 +54,7 @@ For user-friendly commit messages.
 
 - Install them via npm: `npm i -g eslint_d prettier`
 
-## JSON
+## HTML - CSS - JSON
 
 - Install it via npm: `npm i -g vscode-langservers-extracted`
 

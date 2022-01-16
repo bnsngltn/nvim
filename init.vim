@@ -30,10 +30,10 @@ let g:python3_host_prog = '~/.asdf/installs/python/3.9.7/bin/python'
 source $HOME/.config/nvim/plug.vim
 luafile $HOME/.config/nvim/plugins/compe.lua
 " language servers
+luafile $HOME/.config/nvim/plugins/vscodels.lua
 luafile $HOME/.config/nvim/plugins/diagnosticserver.lua
 luafile $HOME/.config/nvim/plugins/elixirls.lua
 luafile $HOME/.config/nvim/plugins/tsserver.lua
-luafile $HOME/.config/nvim/plugins/jsonls.lua
 luafile $HOME/.config/nvim/plugins/bashls.lua
 luafile $HOME/.config/nvim/plugins/pyright.lua
 luafile $HOME/.config/nvim/plugins/rust_analyzer.lua
