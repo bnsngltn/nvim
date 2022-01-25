@@ -12,7 +12,7 @@ augroup formatters
   autocmd!
 
   " javascript and all of its derivatives
-  autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.svelte,*.yaml,*.html PrettierAsync
+  autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.svelte,*.yaml,*.html Prettier
 
   " elixir
   autocmd BufWritePre *.ex lua vim.lsp.buf.formatting_sync(nil, 1000)
