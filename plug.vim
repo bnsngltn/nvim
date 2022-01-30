@@ -3,6 +3,8 @@ call plug#begin(stdpath('data') . '/plugged')
 " vs code like theme
 Plug 'tomasiser/vim-code-dark'
 
+Plug 'psliwka/vim-smoothie'
+
 " fuzzy file finder
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
