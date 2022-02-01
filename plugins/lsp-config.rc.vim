@@ -23,4 +23,7 @@ augroup formatters
 
   " prisma
   autocmd BufWritePre *.prisma lua vim.lsp.buf.formatting_sync(nil, 1000)
+
+  " golang
+  autocmd BufWritePre *.go lua vim.lsp.buf.formatting_sync(nil, 1000)
 augroup End
