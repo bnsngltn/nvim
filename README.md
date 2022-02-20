@@ -66,6 +66,17 @@ For user-friendly commit messages.
 
 - Install it via npm: `npm install -g @prisma/language-server`
 
+## Omnisharp
+
+Download `omnisharp-linux-x64.zip` from [here](https://github.com/OmniSharp/omnisharp-roslyn/releases)
+and copy it into the home directory _(/home/ben/omnisharp)_.
+
+Then, go into this directory and grant the necessary permissions by running:
+
+```shell
+chmod +x run
+```
+
 ## Neovim Plugin Management
 
 For managing different plugins, I use [vim-plug](https://github.com/junegunn/vim-plug#neovim)

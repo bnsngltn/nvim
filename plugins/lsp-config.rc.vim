@@ -26,4 +26,8 @@ augroup formatters
 
   " golang
   autocmd BufWritePre *.go lua vim.lsp.buf.formatting_sync(nil, 1000)
+
+  " csharp
+  autocmd BufWritePre *.cs lua vim.lsp.buf.formatting_sync(nil, 1000)
+
 augroup End

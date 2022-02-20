@@ -42,6 +42,7 @@ luafile $HOME/.config/nvim/plugins/clangd.lua
 luafile $HOME/.config/nvim/plugins/prismals.lua
 luafile $HOME/.config/nvim/plugins/gopls.lua
 luafile $HOME/.config/nvim/plugins/golangci_lint_ls.lua
+luafile $HOME/.config/nvim/plugins/omnisharp.lua
 
 source $HOME/.config/nvim/plugins/lsp-config.rc.vim
 luafile $HOME/.config/nvim/plugins/lspsaga.lua
