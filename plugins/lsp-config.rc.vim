@@ -30,4 +30,7 @@ augroup formatters
   " csharp
   autocmd BufWritePre *.cs lua vim.lsp.buf.formatting_sync(nil, 1000)
 
+  "php 
+  autocmd BufWritePre *.php Prettier
+
 augroup End
