@@ -54,6 +54,10 @@ For user-friendly commit messages.
 
 - Install them via npm: `npm i -g eslint_d prettier`
 
+## TailWind CSS
+
+- Install via npm: `npm install -g @tailwindcss/language-server`
+
 ## HTML - CSS - JSON
 
 - Install it via npm: `npm i -g vscode-langservers-extracted`
