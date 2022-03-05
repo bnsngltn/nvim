@@ -41,4 +41,7 @@ Plug 'numirias/semshi', { 'do': ':UpdateRemotePlugins' }
 " Markdown and stuff
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 
+" Php
+Plug 'jwalton512/vim-blade'
+
 call plug#end()
