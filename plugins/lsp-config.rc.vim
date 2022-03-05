@@ -31,6 +31,6 @@ augroup formatters
   autocmd BufWritePre *.cs lua vim.lsp.buf.formatting_sync(nil, 1000)
 
   "php 
-  autocmd BufWritePre *.php Prettier
+  autocmd BufWritePre *.php lua vim.lsp.buf.formatting_sync(nil, 1000)
 
 augroup End

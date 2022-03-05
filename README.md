@@ -81,6 +81,14 @@ Then, go into this directory and grant the necessary permissions by running:
 chmod +x run
 ```
 
+## Intelephense
+
+For php development. Install globally via `npm`:
+
+```
+npm install -g intelephense
+```
+
 ## Neovim Plugin Management
 
 For managing different plugins, I use [vim-plug](https://github.com/junegunn/vim-plug#neovim)
