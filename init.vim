@@ -44,7 +44,6 @@ luafile $HOME/.config/nvim/plugins/gopls.lua
 luafile $HOME/.config/nvim/plugins/golangci_lint_ls.lua
 luafile $HOME/.config/nvim/plugins/omnisharp.lua
 luafile $HOME/.config/nvim/plugins/texlab.lua
-luafile $HOME/.config/nvim/plugins/tailwindcss.lua
 luafile $HOME/.config/nvim/plugins/intelephense.lua
 
 source $HOME/.config/nvim/plugins/lsp-config.rc.vim
