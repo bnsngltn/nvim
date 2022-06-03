@@ -21,6 +21,9 @@ me manage my different workspaces.
 
 - Download it [here](https://github.com/neovim/neovim/wiki/Installing-Neovim)
 
+### To Display Emoji's in Your Terminal Emulator (Manjaro)
+- [Just follow this very helpful tutorial from the community](https://forum.manjaro.org/t/howto-enable-emoji-fonts/36695)
+
 ## Commitizen
 
 For user-friendly commit messages.
