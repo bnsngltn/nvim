@@ -44,4 +44,8 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 " Php
 Plug 'jwalton512/vim-blade'
 
+" Treesitter stuff
+Plug 'kyazdani42/nvim-web-devicons' " file icons
+Plug 'kyazdani42/nvim-tree.lua'
+
 call plug#end()

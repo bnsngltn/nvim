@@ -22,7 +22,7 @@ set colorcolumn=100
 set visualbell
 
 set shell=/bin/bash
-set guifont=Monospace:h12
+set guifont=Monospace:h10
 
 let mapleader = " "
 let g:python3_host_prog = '~/.asdf/installs/python/3.9.7/bin/python'
@@ -45,6 +45,7 @@ luafile $HOME/.config/nvim/plugins/golangci_lint_ls.lua
 luafile $HOME/.config/nvim/plugins/omnisharp.lua
 luafile $HOME/.config/nvim/plugins/texlab.lua
 luafile $HOME/.config/nvim/plugins/intelephense.lua
+luafile $HOME/.config/nvim/plugins/nvim-tree.lua
 
 source $HOME/.config/nvim/plugins/lsp-config.rc.vim
 luafile $HOME/.config/nvim/plugins/lspsaga.lua
@@ -60,3 +61,5 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
 inoremap <C-c> <Esc>
+
+nnoremap <C-n> :NvimTreeToggle<CR>
