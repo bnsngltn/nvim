@@ -69,4 +69,8 @@ keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
 keymap("n", "<leader>ff", "<cmd>lua require('telescope.builtin').find_files()<cr>", opts)
 keymap("n", "<leader>fg", "<cmd>lua require('telescope.builtin').live_grep()<cr>", opts)
 
+-- Git
+keymap("n", "<leader>bl", "<cmd>Gitsigns blame_line<cr>", opts)
 
+-- LSP
+keymap("n", "<leader>li", "<cmd>LspInstallInfo<cr>", opts)
