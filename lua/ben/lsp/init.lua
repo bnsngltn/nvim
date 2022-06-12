@@ -5,3 +5,4 @@ end
 
 require("ben.lsp.lsp-installer")
 require("ben.lsp.handlers").setup()
+require("ben.lsp.null-ls")

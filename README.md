@@ -2,6 +2,17 @@
 
 Special thanks to [chris@machine](https://www.youtube.com/c/ChrisAtMachine) for his awesome series on neovim.
 
+# Dependencies
+
+## Node
+
+Just copy paste this script to install everything that you need
+
+```
+npm install --global yarn eslint_d prettier
+```
+
+
 # Commands
 
 - `:LspInstallInfo` - View currently installed `lsp servers` or you can add new ones.
