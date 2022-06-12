@@ -31,6 +31,10 @@ configs.setup {
     enable = true, -- false will disable the whole extension
     disable = { "" }, -- list of language that will be disabled
     additional_vim_regex_highlighting = true,
+    context_commentstring = {
+      enable = true,
+      enable_autocmd = false,
+    },
   },
   autopairs = {
 		enable = true,
