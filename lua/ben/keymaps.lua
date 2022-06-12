@@ -74,3 +74,6 @@ keymap("n", "<leader>bl", "<cmd>Gitsigns blame_line<cr>", opts)
 
 -- LSP
 keymap("n", "<leader>li", "<cmd>LspInstallInfo<cr>", opts)
+
+-- Nvim Tree
+keymap("n", "<C-n>", "<cmd>NvimTreeToggle<cr>", opts)
