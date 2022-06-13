@@ -1,6 +1,9 @@
--- init.lua
+local status_ok, nvim_tree = pcall(require, "nvim-tree")
+if not status_ok then
+  return
+end
 
-require'nvim-tree'.setup { -- BEGIN_DEFAULT_OPTS
+nvim_tree.setup {
   auto_reload_on_write = true,
   create_in_closed_folder = false,
   disable_netrw = false,
@@ -171,4 +174,4 @@ require'nvim-tree'.setup { -- BEGIN_DEFAULT_OPTS
       watcher = false,
     },
   },
-} -- END_DEFAULT_OPTS
+}

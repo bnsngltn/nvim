@@ -1,98 +1,40 @@
-# Neovim Configurations
+# Neovim
 
-Personalized Neovim configurations, feel free to take inspiration from this repo.
+Special thanks to [chris@machine](https://www.youtube.com/c/ChrisAtMachine) for his awesome series on neovim.
 
-# Tech Stack
+# Dependencies
 
-I primarily work as a full-stack developer in the revised **HYPEBEAST STACK** _(lol)_. So the configs found here will mostly cater to my work needs.
+## Node
 
-- React/Redux
-- Phoenix/Elixir
-- Postgres
-
-I also occassionally mess around with some Python, Go, and Rust codes.
-
-# Instructions
-
-I work with different versions of programming languages, so I use [asdf](http://asdf-vm.com/guide/getting-started.html#_2-download-asdf) in helping
-me manage my different workspaces.
-
-## Neovim (>= 0.5)
-
-- Download it [here](https://github.com/neovim/neovim/wiki/Installing-Neovim)
-
-### To Display Emoji's in Your Terminal Emulator (Manjaro)
-- [Just follow this very helpful tutorial from the community](https://forum.manjaro.org/t/howto-enable-emoji-fonts/36695)
-
-## Commitizen
-
-For user-friendly commit messages.
-
-- Install it via npm: `npm install commitizen -g`
-
-## Diagnostic Server
-
-- Install it via npm: `npm install -g diagnostic-languageserver`
-
-## Elixir Dev
-
-- Install [Elixir and Erlang](https://elixir-lang.org/install.html)
-- Install [elixirls](https://github.com/neovim/nvim-lspconfig/blob/master/CONFIG.md#elixirls)
-
-## Python Dev
-
-- Install `pyright` via npm: `sudo npm install -g pyright`
-
-## Rust Dev
-
-- Install `rust-analyzer` manually with [this guide](https://rust-analyzer.github.io/manual.html#installation)
-- If you installed it in your `~/.local/bin` directory, make sure to add this in your `$PATH`.
-
-## React Dev
-
-- Install [Node](https://nodejs.org/en/download/)
-- Install [tsserver](https://github.com/neovim/nvim-lspconfig/blob/master/CONFIG.md#tsserver)
-
-## EsLint and Prettier
-
-- Install them via npm: `npm i -g eslint_d prettier`
-
-## HTML - CSS - JSON
-
-- Install it via npm: `npm i -g vscode-langservers-extracted`
-
-## Bashls
-
-- Install itvia npm: `npm i -g bash-language-server`
-
-## Prismals
-
-- Install it via npm: `npm install -g @prisma/language-server`
-
-## Omnisharp
-
-Download `omnisharp-linux-x64.zip` from [here](https://github.com/OmniSharp/omnisharp-roslyn/releases)
-and copy it into the home directory _(/home/ben/omnisharp)_.
-
-Then, go into this directory and grant the necessary permissions by running:
-
-```shell
-chmod +x run
-```
-
-## Intelephense
-
-For php development. Install globally via `npm`:
+Just copy paste this script to install everything that you need
 
 ```
-npm install -g intelephense
+npm install --global yarn eslint_d prettier
 ```
 
-## Neovim Plugin Management
+# Commands
 
-For managing different plugins, I use [vim-plug](https://github.com/junegunn/vim-plug#neovim)
+- `:LspInstallInfo` - View currently installed `lsp servers` or you can add new ones.
 
-### Install vim plugins
+# LSP
 
-- Open your neovim
-- Run `:PlugInstall`
+## Installed Servers
+
+- `jsonls`
+- `sumneko_lua`
+- `tsserver`
+
+# Useful shortcuts
+
+- `[space] f f` - Open telescope files finder
+- `[space] f g` - Open telescope live grep
+- `gc` - Comment line/block
+- `K` - View documentation
+- `gd` - Go to definition
+- `gr` - Go to references
+
+# Helpful Utility Tools
+
+_Tools that may help you in your workflow that are not `neovim` specific_
+
+- [tree](http://mama.indstate.edu/users/ice/tree/)
