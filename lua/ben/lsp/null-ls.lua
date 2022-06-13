@@ -13,7 +13,7 @@ null_ls.setup({
 	debug = false,
 	sources = {
 		formatting.prettier,
-    diagnostics.eslint_d
+    diagnostics.eslint_d,
 	},
   on_attach = function(client, bufnr)
         if client.supports_method("textDocument/formatting") then
