@@ -49,6 +49,7 @@ return packer.startup(function(use)
 
   -- Colorschemes
   use "tomasiser/vim-code-dark"
+  use "xiyaowong/nvim-transparent" -- As the name says, make everything transparent
 
   -- Completion plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
