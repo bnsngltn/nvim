@@ -12,8 +12,12 @@ local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
 null_ls.setup({
 	debug = false,
 	sources = {
+    -- Prettier (JS/TS)
 		formatting.prettier,
+    -- Eslint Daemon (JS/TS)
     diagnostics.eslint_d,
+    -- Prisma (JS/TS)
+    formatting.prismaFmt,
 	},
   on_attach = function(client, bufnr)
         if client.supports_method("textDocument/formatting") then
