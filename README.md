@@ -22,7 +22,8 @@ npm install --global yarn eslint_d prettier commitizen
 - `jsonls`
 - `sumneko_lua`
 - `tsserver`
-- `prismaLs`
+- `prismals`
+- `elixirls`
 
 # Useful shortcuts
 
