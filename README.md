@@ -24,6 +24,7 @@ npm install --global yarn eslint_d prettier commitizen
 - `tsserver`
 - `prismals`
 - `elixirls`
+- `tailwindcss`
 
 # Useful shortcuts
 
