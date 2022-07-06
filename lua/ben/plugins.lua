@@ -59,6 +59,7 @@ return packer.startup(function(use)
   use "saadparwaiz1/cmp_luasnip" -- snippet completions
   use "hrsh7th/cmp-nvim-lsp" -- attach lsp feature to our autocompletion engine
   use "hrsh7th/cmp-nvim-lua" -- another source for the completion engine to make editing configs easier
+  use "akinsho/toggleterm.nvim" -- add a terminal emulator inside of neovim
 
   -- Snippets
   use "L3MON4D3/LuaSnip" --snippet engine
