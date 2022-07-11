@@ -29,6 +29,7 @@ To bring out the best in you _(lol)_, you can use [Fira Code](https://github.com
 - `prismals`
 - `elixirls`
 - `tailwindcss`
+- `svelte`
 
 # Useful shortcuts
 
