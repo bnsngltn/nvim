@@ -15,6 +15,10 @@ _If you have multiple versions of node like me, you will need to run this comman
 npm install --global yarn eslint_d prettier commitizen
 ```
 
+# Fonts
+
+To bring out the best in you _(lol)_, you can use [Fira Code](https://github.com/tonsky/FiraCode) as your font for the terminal.
+
 # LSP
 
 ## Installed Servers
