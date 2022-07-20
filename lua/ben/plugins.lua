@@ -48,7 +48,7 @@ return packer.startup(function(use)
   use "numToStr/Comment.nvim" -- Easily comment stuff
 
   -- Colorschemes
-  use "tomasiser/vim-code-dark"
+  use "rebelot/kanagawa.nvim"
   use "xiyaowong/nvim-transparent" -- As the name says, make everything transparent
 
   -- Completion plugins
